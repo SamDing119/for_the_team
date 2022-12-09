@@ -42,7 +42,7 @@ header{
     color:#112434;
     border-radius: 20px;
 }
-nav li a:hover, nva li a.active{
+nav li a:hover, nav li a.active{
     background: #112434;
     color: #fff;
 }

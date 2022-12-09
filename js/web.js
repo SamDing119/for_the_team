@@ -12,24 +12,26 @@
 
         gsap.to("#W2",
         {
-            x: 1100,            
+            x: 1100,          
             scrollTrigger:
             {
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })
 
         gsap.to("#GN",
         {
             scale: 1.1,
-            y: 98,
+            y: 90,
             scrollTrigger:
             {
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })
 
@@ -45,6 +47,7 @@
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })       
 
@@ -56,6 +59,7 @@
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })
 
@@ -69,6 +73,7 @@
              start: "15% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })       
 
@@ -81,5 +86,6 @@
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
+             markers:false,
             }
         })
