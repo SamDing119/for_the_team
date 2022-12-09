@@ -6,7 +6,7 @@
              start: "10% 15%",
              end: "30% 20%",
              scrub: true,
-             markers: true,
+             markers: false,
             }
         })
 
