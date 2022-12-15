@@ -9,6 +9,7 @@ body{
     background: rgb(244, 216, 165);
     min-height: 100vh;
 }
+
 header{
     position: fixed;
     background: linear-gradient(to top, #fff, #ddd);
@@ -42,13 +43,10 @@ header{
     color:#112434;
     border-radius: 20px;
 }
-nav li a:hover, nav li a.active{
-    background: #112434;
-    color: #fff;
-}
+
 .parallax{
     position: relative;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -102,4 +100,17 @@ nav li a:hover, nav li a.active{
 
 #HD{
     opacity: 0;
+}
+
+.na1{
+    background-color:#f18c3a; 
+}
+
+.ck li a:hover{
+    background: #030303;
+    color: #fff;
+}
+
+.ck li a.active{
+    background: #ffffff;
 }
