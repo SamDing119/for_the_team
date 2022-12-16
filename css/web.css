@@ -106,11 +106,18 @@ header{
     background-color:#f18c3a; 
 }
 
-.ck li a:hover{
-    background: #030303;
-    color: #fff;
+.an2 li{
+    color: rgb(255, 255, 255);
+    margin-right:5px;
+    margin-left: 5px;
 }
 
-.ck li a.active{
-    background: #ffffff;
+.an2 li a:hover{
+    background: #ffffff81;
+    color: rgb(255, 255, 255);
+}
+
+.an2 li.active{
+    color: rgb(255, 254, 254);
+    background-color: #0000007e;
 }
