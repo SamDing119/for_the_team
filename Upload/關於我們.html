@@ -22,63 +22,175 @@
 </style>
 
 <body>
+    <div class="container-fluid p-0">
 
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <nav style="background-color:#f18d3a" class="navbar navbar-expand-sm navbar-dark fixed-top shadow">
-                <div class="container-fluid">
+        <!--導覽列-->
 
-                    <a class="btn navbar-brand" href="index.html">
-                        <img src="images/logo-2.svg" alt="Logo" style="width:60px;">
-                    </a>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <nav style="background-color:#f18d3a" class="navbar navbar-expand-sm navbar-dark fixed-top shadow">
+                    <div class="container-fluid">
+    
+                        <a class="btn navbar-brand" href="index.html">
+                            <img src="img/LOGO01-01.png" alt="Logo" style="width:60px;">
+                        </a>
+    
+                        <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar" style="border-width:0px;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+    
+                        <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar"
+                            style="margin:5px 0px 5px 0px;">
+                            <ul class="a2 navbar-nav d-flex gap-3 ">
+                                <li class="nav-item">
+                                    <a class="nav-link "
+                                        href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E6%95%85%E4%BA%8B.html">作品簡介</a>
+                                </li>
+    
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        href="http://127.0.0.1:5500/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91.html">關於我們</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E5%8B%95%E7%95%AB.html">完整動畫</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "
+                                        href="http://127.0.0.1:5500/%E7%B5%A6%E6%88%91%E5%9B%9E%E9%A5%8B.html">給我回饋</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </nav>
+            </div>
+        </div>
+        <div class="row" style="margin-top:5vh">
+            <div id="carouselExampleIndicators" class="carousel slide shadow" data-bs-ride="carousel"
+                style="width:100%;">
+                
 
-                    <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#mynavbar" style="border-width:0px;">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar"
-                        style="margin:5px 0px 5px 0px;">
-                        <ul class="a2 navbar-nav d-flex gap-3 ">
-                            <li class="nav-item">
-                                <a class="nav-link " href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E6%95%85%E4%BA%8B.html">作品簡介</a>
-                              </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active" href="http://127.0.0.1:5500/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91.html">關於我們</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E5%8B%95%E7%95%AB.html">完整動畫</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link " href="http://127.0.0.1:5500/%E7%B5%A6%E6%88%91%E5%9B%9E%E9%A5%8B.html">給我回饋</a>
-                              </li>
-                        </ul>
+                <!--尺寸這邊調整 max-height 的那個-->
+                <div class="carousel-inner d-flex align-items-center carousel-fade"
+                    style="max-height: 500px;background-color:rgb(201, 201, 201); padding: auto;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid d-block mx-auto" src="img/ABOUT01.png" alt="New York" style="width:100%;">
+                        </div>
+                        
                     </div>
                 </div>
-            </nav>
+                
+                
+            </div>
         </div>
+
+    <div class="container py-5">
+        <div class="row">
+            
+            <div class="d-flex align-items-start">
+
+
+
+                <!--分頁標籤-->
+
+                <div class="nav flex-column nav-pills me-3 col-2" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">最初動機</button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">組員介紹</button>
+                    
+                </div>
+
+                <!--分頁內容-->
+
+                <div class=" tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+
+                        <h4>動機</h4>
+                        <hr>
+                        隨著社會漸漸成長，近年來對於家人之間的矛盾及不理解逐漸增加，不只發生與家人的衝突，同時也可能因為家人的不諒解，造成一種心理隔閡。作為旁觀者，想藉由旁人的眼光，把看到的這種不對等關西，用動畫呈現出來，並經由自然的社會經歷，來逐漸理解並看見家人所做的一切。
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+
+                        <div class="col">
+
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-12 col-lg-7">
+                                        <img src="img/P03.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12 col-lg-5">
+                                        <div class="card-body">
+                                            <h5 class="card-title">何冠逸</h5>
+                                            <hr>
+                                            <p>台中科技大學多媒體設計系
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-12 col-lg-7">
+                                        <img src="img/P01.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12 col-lg-5">
+                                        <div class="card-body">
+                                            <h5 class="card-title">鄒嘉威</h5>
+                                            <hr>
+                                            <p>台中科技大學多媒體設計系
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-12 col-lg-7">
+                                        <img src="img/P02.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12 col-lg-5">
+                                        <div class="card-body">
+                                            <h5 class="card-title">丁子萱</h5>
+                                            <hr>
+                                            <p>台中科技大學多媒體設計系
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">...</div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="row">
 
-        <div class="col" style="background-color: blue;">
-            <h1>
-                dd
-            </h1>
-        </div>
-        <div class="col" style="background-color: red;">
-            <h1>
-                dd
-            </h1>
-        </div>
-        <div class="col" style="background-color: rgb(55, 134, 79);">
-            <h1>
-                dd
-            </h1>
-        </div>
 
-    </div>
+
+
+
+
+
 
 </body>
 

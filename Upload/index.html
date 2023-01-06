@@ -26,47 +26,41 @@
 
         <!--導覽列-->
 
-        <div class="row align-items-center">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light na1 shadow fixed-top">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <nav style="background-color:#f18d3a" class="navbar navbar-expand-sm navbar-dark fixed-top shadow">
                     <div class="container-fluid">
-                        <a class="nav-pillsz" href="#">
-
-                            <img src="img/LOGO.png" alt="" height="24">
-
+    
+                        <a class="btn navbar-brand" href="index.html">
+                            <img src="img/LOGO01-01.png" alt="Logo" style="width:60px;">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
+    
+                        <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar" style="border-width:0px;">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                            <div class="col d-flex justify-content-lg-end justify-content-center ">
-                                <ul class="an2 navbar-nav nav-pills">
-
-                                    <li class="nav active rounded">
-                                        <a class="nav-link text-reset"
-                                            href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E6%95%85%E4%BA%8B.html">作品簡介</a>
-                                    </li>
-
-                                    <li class="nav rounded">
-                                        <a class="nav-link text-reset"
-                                            href="http://127.0.0.1:5500/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91.html">關於我們</a>
-                                    </li>
-
-                                    <li class="nav rounded">
-                                        <a class="nav-link text-reset"
-                                            href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E5%8B%95%E7%95%AB.html">完整動畫</a>
-                                    </li>
-
-                                    <li class="nav rounded">
-                                        <a class="nav-link text-reset"
-                                            href="http://127.0.0.1:5500/%E7%B5%A6%E6%88%91%E5%9B%9E%E9%A5%8B.html">給我回饋</a>
-                                    </li>
-
-                                </ul>
-                            </div>
+    
+                        <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar"
+                            style="margin:5px 0px 5px 0px;">
+                            <ul class="a2 navbar-nav d-flex gap-3 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E6%95%85%E4%BA%8B.html">作品簡介</a>
+                                </li>
+    
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91.html">關於我們</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/%E5%AE%8C%E6%95%B4%E5%8B%95%E7%95%AB.html">完整動畫</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "
+                                        href="http://127.0.0.1:5500/%E7%B5%A6%E6%88%91%E5%9B%9E%E9%A5%8B.html">給我回饋</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -126,6 +120,7 @@
                     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                         aria-selected="false">角色介紹</button>
+                    
                 </div>
 
                 <!--分頁內容-->
