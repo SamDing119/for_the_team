@@ -1,0 +1,12 @@
+#foo {
+    background-color: #3c2d20;
+    height: 50px;
+    /*設定footer本身高度*/
+}
+
+#foo p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+

@@ -1,6 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
+
 server = express();
 
 server.use(express.static("Upload"));//要跑在伺服器上的首頁母資料夾
@@ -37,12 +38,15 @@ server.get("/portfolio", function(req, res){
 
 
 
+
+
 server.get("/contact", function(req, res){
     res.send("");
     res.redirect("/index Vue.html"); //找檔案時只需要找index.html
 });
  
-server.post("/contact", function(req, res){
+server.post("/contact_me", function(req, res){
+
     console.log(req.body);
     ContactDB.insert(req.body);     //加入資料庫
     res.redirect("/index Vue.html");  //找檔案時只需要找index.html
